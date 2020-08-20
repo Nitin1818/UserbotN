@@ -5,7 +5,7 @@
 import os
 
 import requests
-from telethon import TelegramClient, events
+from telethon import events
 
 from userbot import SCREENSHOT_LAYER_ACCESS_KEY, bot
 

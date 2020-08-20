@@ -1,6 +1,6 @@
 from telethon import events
 from telethon.errors import ChatAdminRequiredError
-from telethon.tl.types import ChannelParticipantsAdmins, ChatParticipantCreator, Chat
+from telethon.tl.types import ChannelParticipantsAdmins
 
 from userbot import bot
 

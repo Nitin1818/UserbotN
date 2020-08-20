@@ -1,4 +1,3 @@
-import subprocess
 import speedtest
 
 from datetime import datetime

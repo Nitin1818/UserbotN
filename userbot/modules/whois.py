@@ -1,10 +1,8 @@
 import os
 
 from telethon import events
-from telethon.tl.functions.messages import EditMessageRequest
 from telethon.tl.functions.users import GetFullUserRequest
-from telethon.tl.types import MessageEntityMentionName, User, UserFull
-from telethon.utils import get_input_location
+from telethon.tl.types import MessageEntityMentionName
 
 from userbot import bot
 

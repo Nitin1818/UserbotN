@@ -3,7 +3,7 @@ import sre_constants
 
 from telethon import events
 
-from userbot import LOGGER, LOGGER_GROUP, bot
+from userbot import LOGGER, bot
 
 DELIMITERS = ("/", ":", "|", "_")
 

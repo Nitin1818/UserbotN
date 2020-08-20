@@ -1,11 +1,10 @@
-import asyncio
 from asyncio import create_subprocess_shell as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 from shutil import which
 
 from telethon import events
 
-from userbot import LOGGER, LOGGER_GROUP, bot
+from userbot import bot
 
 
 @bot.on(events.NewMessage(outgoing=True, pattern="^.sysd$"))

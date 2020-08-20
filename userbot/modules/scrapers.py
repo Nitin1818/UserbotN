@@ -2,14 +2,14 @@ import os
 import re
 import subprocess
 import time
-from datetime import datetime, timedelta
+from datetime import datetime
 
 import urbandict
 import wikipedia
 from google_images_download import google_images_download
 from googletrans import Translator
 from gtts import gTTS
-from telethon import TelegramClient, events
+from telethon import events
 
 from userbot import LOGGER, LOGGER_GROUP, bot
 

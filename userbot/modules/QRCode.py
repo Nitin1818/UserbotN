@@ -3,9 +3,9 @@ import os
 from datetime import datetime
 
 import requests
-from telethon import TelegramClient, events
+from telethon import events
 
-from userbot import LOGGER, LOGGER_GROUP, bot
+from userbot import bot
 
 download_directory = os.environ.get("TMP_DOWNLOAD_DIRECTORY", "./downloads/")
 

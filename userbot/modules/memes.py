@@ -4,11 +4,10 @@ import re
 import time
 
 from spongemock import spongemock
-from telethon import TelegramClient, events
+from telethon import events
 from zalgo_text import zalgo
 
-from userbot import (DISABLE_RUN, ENABLE_KILLME, LOGGER, LOGGER_GROUP,
-                     WIDE_MAP, bot)
+from userbot import (DISABLE_RUN, WIDE_MAP, bot)
 
 
 @bot.on(events.NewMessage(outgoing=True, pattern="^:/$"))

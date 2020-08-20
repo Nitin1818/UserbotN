@@ -1,11 +1,7 @@
 import asyncio
 import re
-import sqlite3
 import time
-
-from sqlalchemy import (Boolean, Column, Integer, String, UnicodeText,
-                        distinct, func)
-from telethon import TelegramClient, events
+from telethon import events
 
 from userbot import LOGGER, LOGGER_GROUP, bot
 

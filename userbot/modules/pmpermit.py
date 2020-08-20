@@ -1,5 +1,3 @@
-import sqlite3
-import time
 
 from telethon import events
 from telethon.tl.functions.contacts import BlockRequest
